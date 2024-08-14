@@ -1,0 +1,57 @@
+.navbar-nav{
+  margin-right: 2.5rem;
+}
+.navbar-zetra{
+  margin-left: 2.5rem;
+}
+
+footer {
+  position: "relative";
+  bottom: "0px";
+  width: "100vw";
+  overflow-x: "hidden";
+  bottom: 0px;
+}
+.footer-container {
+  color: white;
+  padding: 2rem 7rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+}
+
+.footer-details {
+  font-size: 1rem;
+  margin: 0px 0;
+}
+.footer-title-primary {
+  text-align: center;
+}
+.contact-details,
+.additional-info {
+padding: 0 2.5rem;
+}
+@media only screen and (max-width: 501px) {
+  .navbar-nav{
+    margin-right: 0rem;
+  }
+  .navbar-zetra{
+    margin-left: 0rem;
+  }
+  .footer-title {
+    font-size: 0.9rem;
+  }
+  .footer-details {
+    font-size: 0.7rem;
+  }
+  .footer-title-primary {
+    font-size: 0.8rem;
+  }
+  .contact-details,
+  .additional-info {
+    padding: 0 0;
+  }
+}

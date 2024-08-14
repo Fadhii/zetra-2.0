@@ -1,0 +1,351 @@
+.sellform {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sellform .div {
+  background-color: #ffffff;
+  height: 844px;
+  position: relative;
+  width: 394px;
+}
+
+.sellform .input-field {
+  width: 260px;
+  height: 20px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 12px;
+  top: 5px;
+}
+
+
+
+
+.sellform .overlap-group {
+  background-color: #2a2c77;
+  border-radius: 20px;
+  height: 393px;
+  left: 33px;
+  position: absolute;
+  top: 187px;
+  width: 329px;
+}
+
+ .sellform .rectangle {
+  background-color: #2a2c77;
+  border-radius: 9px;
+  height: 41px;
+  left: 20px;
+  position: absolute;
+  top: 36px;
+  width: 290px;
+}
+
+.sellform .rectangle-2 {
+  background-color: #2a2c77;
+  border-radius: 9px;
+  height: 41px;
+  left: 20px;
+  position: absolute;
+  top: 113px;
+  width: 290px;
+}
+
+.sellform .rectangle-3 {
+  background-color: #2a2c77;
+  border-radius: 9px;
+  height: 40px;
+  left: 20px;
+  position: absolute;
+  top: 188px;
+  width: 290px;
+}
+
+.sellform .rectangle-4 {
+  background-color: #2a2c77;
+  border-radius: 9px;
+  height: 109px;
+  left: 20px;
+  position: absolute;
+  top: 264px;
+  width: 290px;
+} 
+.sellform .rectangle .input-field::placeholder {
+  color: rgba(0, 0, 0, 0.416);
+}
+.sellform .rectangle-2 .input-field::placeholder {
+  color: rgba(0, 0, 0, 0.416); 
+}.sellform .rectangle-3 .input-field::placeholder {
+  color: rgba(0, 0, 0, 0.416); 
+}.sellform .rectangle-4 .input-field::placeholder {
+  color: rgba(0, 0, 0, 0.416); 
+}
+
+.sellform .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  width: 82px;
+}
+
+.sellform .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 89px;
+  width: 82px;
+}
+
+.sellform .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 164px;
+  width: 146px;
+}
+
+.sellform .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 240px;
+  width: 127px;
+}
+
+.sellform .text-wrapper-5 {
+  color: #2a2c77;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  left: 53px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 613px;
+  width: 127px;
+}
+
+.sellform .text-wrapper-6 {
+  color: #2a2c77;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 644px;
+  width: 127px;
+}
+
+.sellform .text-wrapper-7 {
+  color: #2a2c77;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 19px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 676px;
+  width: 127px;
+}
+
+.sellform .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  height: 24px;
+  left: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 117px;
+  white-space: nowrap;
+}
+
+/* Update the existing styles to visually represent checkboxes as radio buttons */
+
+/* Hide the default checkboxes */
+.sellform input[type="checkbox"] {
+  display: none;
+}
+
+/* Styling for the custom radio buttons */
+.sellform .ellipse,
+.sellform .ellipse-2 {
+  border-radius: 50%; /* Makes the div appear as a circle */
+  height: 19px;
+  width: 19px;
+  display: inline-block;
+  margin-right: 8px; /* Spacing between the radio button and text */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: relative; /* Needed for absolute positioning of the checkmark */
+  vertical-align: middle;
+  border: 1px solid #000; /* Border for the radio button */
+}
+
+/* Styling for the unchecked state of the radio button */
+.sellform .ellipse::after,
+.sellform .ellipse-2::after {
+  content: ''; /* Empty content */
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9px; /* Adjust the size of the inner circle */
+  height: 9px; /* Adjust the size of the inner circle */
+  border-radius: 50%; /* Make it a circle */
+  background-color: transparent; /* Background color for the inner circle */
+}
+
+/* Styling for the checked state of the radio button */
+.sellform .ellipse.checked::after,
+.sellform .ellipse-2.checked::after {
+  background-color: #353faa; /* Change background color when checked */
+}
+
+
+
+
+.sellform .overlap {
+  height: 88px;
+  left: 249px;
+  position: absolute;
+  top: 606px;
+  width: 88px;
+}
+
+.sellform .img {
+  height: 86px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 88px;
+}
+
+.sellform .vector {
+  height: 20px;
+  left: 32px;
+  position: absolute;
+  top: 22px;
+  width: 24px;
+}
+
+.sellform .upload-images {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 10px;
+  font-weight: 600;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 48px;
+  width: 73px;
+}
+
+.sellform .div-wrapper {
+  background-color: #2a2c77;
+  border-radius: 27px;
+  height: 44px;
+  left: 105px;
+  position: absolute;
+  top: 741px;
+  width: 176px;
+}
+
+.sellform .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 128px;
+}
+
+.sellform .overlap-2 {
+  height: 34px;
+  left: 37px;
+  position: absolute;
+  top: 46px;
+  width: 320px;
+}
+
+.sellform .ZECTRA {
+  color: transparent;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 29px;
+  left: 71px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 179px;
+}
+
+.sellform .span {
+  color: #2429ac;
+}
+
+.sellform .text-wrapper-10 {
+  color: #000000;
+}
+
+.sellform .text-wrapper-11 {
+  color: #ea4600;
+}
+
+.sellform .text-wrapper-12 {
+  color: #db004f;
+}
+
+.sellform .group {
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 320px;
+}

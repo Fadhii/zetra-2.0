@@ -1,0 +1,118 @@
+.help {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: .5rem 0.9rem;
+  }
+  
+  .help-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .help-form {
+    background-color: #4f4f4f;
+  color: white;
+  padding: 2rem;
+  margin: 5px;
+  border-radius: 20px;
+  width:fit-content;
+  }
+
+  @media only screen and (max-width: 500px){
+    .help-form{
+      padding: 0.7rem;
+    }
+    .help-btn{
+      width: 4rem;
+      height: 2.5rem;
+    }
+  }
+  
+  .help-input {
+    margin: .5rem;
+    margin-top: 0.3rem;
+  margin-bottom: 1.3rem;
+  border-radius: 20px;
+  }
+  
+  .help-form input{
+    border-radius: 25px;
+  padding: 13px;
+  width: 65vw;
+  height: 15px;
+  
+  }
+
+  
+  .help-form textarea {
+    border-radius: 25px;
+  padding: 13px;
+  width: 65vw;
+  
+  }
+  
+
+  
+  .help-form textarea {
+    resize: none;
+  }
+  
+  .help-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .help-logo {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  }
+  
+  .help-or-chat {
+    font-size: 1.2em;
+  }
+  
+  .help-btn {
+    position: relative;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: #de6f2c;
+    color: white;
+    font-weight: 600;
+    margin: 0.4rem auto 0.4rem auto;
+    padding: 2px;
+    left: 50%;
+   
+   transform: translateX(-50%); /* Adjust for center alignment */
+    
+  }
+
+  
+  .help-btn:hover {
+    background-color: #c75f1f;
+  }
+  
+  .help-or-chat-container {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .help-or-chat-text {
+    font-size: 1.2em;
+  }
+  
+  .help-or-chat-text span {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,181 @@
+
+
+.selling {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 2rem 0.9rem;
+}
+
+.sell-box-form {
+  background-color: #4f4f4f;
+  color: white;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+.sell-input {
+  margin-top: 0.3rem;
+  margin-bottom: 1.3rem;
+  border-radius: 20px;
+}
+
+.selling .sell-box-form input {
+  border-radius: 25px;
+  padding: 13px;
+  width: 45vw;
+  height: 15px;
+}
+
+.selling textarea {
+  border-radius: 25px;
+  padding: 13px;
+  width: 45vw;
+  resize: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .selling .sell-box-form input,
+  .selling textarea {
+    width: 65vw; /* Adjust the size for smaller screens */
+  }
+
+}
+
+.selling-condition {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+.selling-condition label {
+  font-weight: 600;
+}
+
+.selling-second-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.selling-upload {
+  background-color: #4f4f4f;
+  margin: 2rem 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.selling-upload:hover{
+  background-color: #404040;
+  color: white;
+}
+
+.selling-cam-icon{
+  height: 60px;
+  width: 60px;
+}
+
+.selling-title{
+  font-size: 2.5em;
+  margin: 1rem 0;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .selling-title{
+    font-size: 1.7em;
+  }
+  .sell-box-form{
+    font-size: 0.8em;
+  }
+  .selling-second-box{
+    font-size: 1em;
+  }
+  .selling-radio-text{
+    font-size: 0.8em;
+  }
+  .sell-box-form{
+    padding: 1rem;
+  }
+  .selling-btn{
+    font-size: 0.9em;
+  }
+  .selling-upload{
+    font-size: 0.9em;
+  }
+}
+
+.selling-radio {
+  color: #404040;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0.3rem;
+}
+
+.selling-radio-text{
+  font-size: 1em;
+}
+
+
+
+.selling-btn{
+    width: 40vw;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: #de6f2c;
+    color: white;
+    font-weight: 600;
+    margin: 0.4rem auto 3rem auto;
+}
+
+.selling-btn:hover{
+  background-color: #c75f1f;
+}
+
+/* Update the existing styles to visually represent checkboxes as radio buttons */
+
+/* Hide the default checkboxes */
+.selling input[type="checkbox"] {
+  display: none;
+}
+
+/* Styling for the custom radio buttons */
+.selling .ellipse,
+.selling .ellipse-2 {
+  border-radius: 50%; /* Makes the div appear as a circle */
+  height: 19px;
+  width: 19px;
+  display: inline-block;
+  margin-right: 8px; /* Spacing between the radio button and text */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: relative; /* Needed for absolute positioning of the checkmark */
+  vertical-align: middle;
+  border: 1px solid #000; /* Border for the radio button */
+}
+
+/* Styling for the unchecked state of the radio button */
+.selling .ellipse::after,
+.selling .ellipse-2::after {
+  content: ""; /* Empty content */
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9px; /* Adjust the size of the inner circle */
+  height: 9px; /* Adjust the size of the inner circle */
+  border-radius: 50%; /* Make it a circle */
+  background-color: transparent; /* Background color for the inner circle */
+}
+
+/* Styling for the checked state of the radio button */
+.selling .ellipse.checked::after,
+.selling .ellipse-2.checked::after {
+  background-color: #404040; /* Change background color when checked */
+}
